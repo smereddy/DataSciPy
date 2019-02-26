@@ -107,4 +107,4 @@ venv.bak/
 
 .idea/*
 
-/dataenv/
+/dataenv/*
