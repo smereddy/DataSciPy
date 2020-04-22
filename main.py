@@ -38,7 +38,7 @@ decomposition = sm.tsa.seasonal_decompose(y, model='additive')
 fig = decomposition.plot()
 plt.show()
 
-p = d = q = range(0, 2)
+p = d = q = range(2)
 pdq = list(itertools.product(p, d, q))
 seasonal_pdq = [(x[0], x[1], x[2], 12) for x in list(itertools.product(p, d, q))]
 print('Examples of parameter combinations for Seasonal ARIMA...')
